@@ -4,4 +4,7 @@ class Course
   def self.all
     @@courses
   end
+  def self.reset_all
+    @@courses.clear
+  end
 end
