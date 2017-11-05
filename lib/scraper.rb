@@ -23,6 +23,6 @@ class Scraper
   end
   def make_courses
     xml_elements = get_courses
-     
+    xml_elements.each{|element| puts "#{element}"}
   end
 end
