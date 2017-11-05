@@ -21,4 +21,8 @@ class Scraper
   def get_courses
     @document.css(".post")
   end
+  def make_courses
+    xml_elements = get_courses
+     
+  end
 end
